@@ -45,6 +45,7 @@ def get_color():
 	z = raw_input("Enter foreground brightness (0-1): ").strip()
 	
 	tag = "[FRIENDLY_COLOR:%1:%2:%3]".replace("%1", x).replace("%2", y).replace("%3", z)
+	return tag
 
 def get_biomes():
 	input = "something"
